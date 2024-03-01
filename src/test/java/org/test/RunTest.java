@@ -39,6 +39,7 @@ public class RunTest {
 
         // Verify that login is successful
         String currentUrl = driver.getCurrentUrl();
+        System.out.println("Current URL " + currentUrl);
         assert currentUrl.equals("https://www.saucedemo.com/inventory.html") : "Login unsuccessful!";
 
     }
